@@ -1,0 +1,4 @@
+x= torch.FloatTensor([[0,1,2],[2,1,0]])
+print(x)
+print(torch.ones_like(x))
+print(torch.zeros_like(x))
