@@ -1,0 +1,7 @@
+t=torch.FLoatTensor([[1.,2.,3.],[4.,5.,6.],[7.,8.,9.],[10.,11.,12.]])
+print(t)
+print(t.dim()) #rank
+print(t.size()) #shape
+print(t.[:,1])
+print(t[:,1].size())
+print(t[:,:-1])
