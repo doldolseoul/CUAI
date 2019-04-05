@@ -1,0 +1,5 @@
+x = torch.FloatTensor([[1,2],[3,4]])
+print(x.mul(2.))
+print(x)
+print(x.mul_2.))
+print(x)
