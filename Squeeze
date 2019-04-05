@@ -1,0 +1,5 @@
+ft = torch.FloatTensor([[0], [1], [2]])
+print(ft)
+print(ft.shape)
+print(ft.squeeze())
+print(ft.squeeze().shape)
