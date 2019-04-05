@@ -1,0 +1,14 @@
+#Same shape
+m1 = torch.FloatTensor([[3,3]])
+m2 = torch.FloatTensor([[2,2]])
+print(m1 + m2)
+
+#vector + scalar
+m1=torch.FloatTensor([[1,2]])
+m2=torch.FloatTensor([3]) #3 → [[3,3]]
+print(m1 + m2)
+
+# 2 x 1 victor + 1 x 2 vector
+m1=torch.FloatTensor([[1,2]])
+m2=torch.FloatTensor([[3],[4]])
+print(m1 + m2)
